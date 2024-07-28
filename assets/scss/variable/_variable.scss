@@ -1,0 +1,36 @@
+$primary-color:#AA0601;
+$secondary-color:#FFFFFF;
+$third-color:#650300;
+$fourth-color:#000000;
+$fifth-color:#FBF2F2;
+$six-color:#707070;
+
+
+$font-size-6:48px;
+$font-size-5:36px;
+$font-size-4:32px;
+$font-size-3:24px;
+$font-size-2:20px;
+$font-size-1:14px;    
+
+
+
+@mixin padding-4($top, $right, $bottom, $left) {
+    padding-right:$top $right $bottom $left ;
+}
+@mixin padding-2($top-bottom,$left-right) {
+    padding:$top-bottom $left-right ;
+}
+@mixin margin-4($top, $right, $bottom, $left) {
+    padding-right:$top $right $bottom $left ;
+}
+@mixin margin-2($top-bottom,$left-right) {
+    padding:$top-bottom $left-right ;
+}
+@mixin margin($p) {
+    padding:$p ;
+}
+@mixin padding($p) {
+    padding:$p ;
+}
+

@@ -1,4 +1,65 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  background: $primary-color;
+  padding-top: 48px;
+}
+
+.nav_phome_email{
+	border-bottom: 1px solid #fff;
+}
+
+.footer_nav{
+    margin-bottom: 24px;
+    .txt_ul{
+      gap:48px;
+
+      a{
+        color: $secondary-color;
+      }
+      a:hover{
+        padding-bottom: 5px;
+      }
+    }
+    
+}
+
+.icon_ul{
+  gap: 32px;
+  img{
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.phome_email{
+	padding-top: 24px;
+  padding-bottom: 24px;
+  
+  ul{
+    flex-direction: column;
+    gap:8px 0;
+    li{
+      color: $secondary-color;
+      font-size:$font-size-4;
+    }
+  }
+  svg{
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+  }
+}
+
+.copyright{
+	padding-top: 32px;
+  padding-bottom: 32px;
+  p{
+    color: $secondary-color;
+  }
+  a{
+    font-size: 14px;
+    color: $secondary-color;
+  }
+  ul{
+    gap: 48px;
+  }
 }

@@ -1,4 +1,15 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.logo a{
+  padding: 12px 0;
+  
 }
+.header_nav{
+  gap: 64px;
+  a{
+    padding: 25px 0;
+    color:$secondary-color;
+  }
+  a:hover{
+    font-weight: bold;
+  }
+}
+

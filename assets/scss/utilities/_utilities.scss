@@ -1,0 +1,76 @@
+.bg-parimary{
+    background-color: $primary-color;
+}
+.bg-secondary{
+    background-color: $secondary-color;
+}
+.bg-fifth{
+    background-color: $fifth-color;
+}
+
+.p-top_bottom{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.container-pd-rl{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.column-pd-rl{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.row-left-right{
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.font-w-bold{
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+.f-wrap-w{
+    flex-wrap: wrap; 
+}
+.f-wrap-wr{
+    flex-wrap: wrap-reverse;
+}
+.f-wrap-nw{
+    flex-wrap: nowrap;
+}
+.f-direction-col{
+    flex-direction: column;
+}
+.f-direction-colr{
+    flex-direction: column-reverse;
+}
+.f-direction-rowr{
+    flex-direction: row-reverse;
+}
+.j-content-center{
+    justify-content: center;
+}
+.j-content-between{
+    justify-content: space-between;
+}
+.j-content-end{
+    justify-content: flex-end;
+}
+.j-content-start{
+    justify-content: flex-start;
+}
+.a-items-center{
+    align-items: center;
+}
+.a-items-start{
+    align-items: flex-start;
+}
+.a-items-end{
+    align-items: flex-end;
+}

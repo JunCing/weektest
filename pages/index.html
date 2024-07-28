@@ -2,21 +2,234 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/week3.css">
 </head>
 
 <body>
-  <%- include('./layout/header'); %>
+    <div class="wrap">
+        <%- include('./layout/header'); %>
+        <div class="banner">
+            <div class="container column-pd-12 d-flex  j-content-end a-items-center">
+                <div class="banner_title  d-flex f-direction-col a-items-end">
+                    <p class="">Promise-Desert 2020 早春系列</p>
+                    <h1 class="font-color-second font-w-bold">看得清，才能看得遠</h1>
+                    <div class="banner_button"><a class="background-primgary font-color-white" href="#">立即購買</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="section serve p-top_bottom bg-fifth">
+            <div class="container container-pd-rl">
+                <h2 class="h2   text-center">用專業的心，做專業的事</h2>
+                <ul class="serve_ul d-flex row-left-right">
+                    <li class="column column-pd-rl">
+                        <div class="pic_txt d-flex f-direction-col a-items-center">
+                            <img src="../assets/images/home-section2-1.png" alt="">
+                            <h3 class="h3 font-w-bold text-center">單一價格</h3>
+                            <p class="">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+                        </div>
 
-  <h1 class="index-title">我是首頁 0001</h1>
-  <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="pic_txt d-flex f-direction-col a-items-center">
+                            <img src="../assets/images/home-section2-2.png" alt="">
+                            <h3 class="h3 font-w-bold text-center">20 分鐘即可取件</h3>
+                            <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+                        </div>
 
-  <%- include('./layout/footer'); %>
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="pic_txt d-flex f-direction-col a-items-center">
+                            <img src="../assets/images/home-section2-3.png" alt="">
+                            <h3 class="h3 font-w-bold text-center">安心售後服務</h3>
+                            <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+                        </div>
 
-  <script type="module" src="../main.js"></script>
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="pic_txt d-flex f-direction-col a-items-center">
+                            <img src="../assets/images/home-sectioin2-4.png" alt="">
+                            <h3 class="h3 font-w-bold text-center">關於鏡片</h3>
+                            <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+                        </div>
+
+                    </li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+        <div class="section classic p-top_bottom">
+            <div class="container container-pd-rl">
+                <h2 class="h2  title-bottom">經典系列鏡框</h2>
+                <ul class="classic_ul row-left-right d-flex">
+                    <li class="column column-pd-rl">
+                        <div class="classic_pic_txt  ">
+                            <div class="img">
+                                <img src="../assets/images/home-section3-1.png" alt="optical">
+                            </div>
+                            <div class="button">
+                                <a class=" h2 f-weight-black f-style-italic t-align-center" href="page-2.html">
+                                    OPTICAL
+                                </a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="classic_pic_txt">
+                            <div class="img">
+                                <img src="../assets/images/home-section3-2.png" alt="sunglasses">
+                            </div>
+                            <div class="button">
+                                <a class="color-primary h2 f-weight-black f-style-italic t-align-center" href="page-3.html">
+                                    SUNGLASSES
+                                </a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="classic_pic_txt">
+                            <div class="img">
+                                <img src="../assets/images/home-section3-3.png" alt="functional">
+                            </div>
+                            <div class="button">
+                                <a class="color-primary h2 f-weight-black f-style-italic t-align-center" href="#">
+                                    FUNCTIONAL
+                                </a>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section design p-top_bottom">
+            <div class="container column-pd-12">
+                <h2 class="h2  font-color-white title-bottom">聯名設計鏡框</h2>
+                <ul class="design_ul d-flex">
+                    <li>
+                        <img src="../assets/images/home-section4-1.png" alt="">
+                        <div class="button"><a class="color-primary f-weight-black f-style-italic h2 t-align-center background-white"
+                                href="#">DOUBLE A+</a></div>
+                    </li>
+                    <li>
+                        <img src="../assets/images/home-section4-2.png" alt="">
+                        <div class="button"><a class="color-primary f-weight-black f-style-italic h2 t-align-center background-white"
+                                href="#">YOUTH</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section experience p-top_bottom">
+            <div class="container container-pd-rl">
+                <h2 class="h2">顧客推薦</h2>
+                <ul class="experience_ul d-flex row-left-right">
+                    <li class="column column-pd-rl">
+                        <div class="experience_pictxt">
+                            <img src="../assets/images/home-section5-1.png" alt="">
+                            <div class="txt d-flex">
+                                <div>
+                                    <span class="name font-w-bold">Jessy</span>
+                                    <p class=" font-w-bold">眼鏡品質優良，下次還會想來這邊購買！</p>
+                                </div>
+
+                                <span class="years_title">2021/06/20</span>
+                            </div>
+                        </div>
+
+
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="experience_pictxt">
+                            <img src="../assets/images/home-section5-2.png" alt="">
+                            <div class="txt d-flex">
+                                <div>
+                                    <span class="name font-w-bold">凱倫</span>
+                                    <p class=" font-w-bold">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                                </div>
+                                <span class="years_title">2021/04/18</span>
+
+                            </div>
+
+
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="experience_pictxt">
+                            <img src="../assets/images/home-section5-3.png" alt="">
+                            <div class="txt d-flex">
+                                <div>
+                                    <span class="name font-w-bold">悠悠</span>
+                                    <p class="font-w-bold">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡 ，下次會再回購！</p>
+                                </div>
+                                <span class="years_title">2020/12/25</span>
+
+                            </div>
+
+
+                    </li>
+                    <li class="column column-pd-rl">
+                        <div class="experience_pictxt">
+                            <img src="../assets/images/home-section5-4.png" alt="">
+                            <div class="txt d-flex">
+                                <div>
+                                    <span class="name font-w-bold">Kyuan</span>
+                                    <p class="font-w-bold">服務很好，品質沒有任何問題，非常喜歡。</p>
+                                </div>
+
+                                <span class="years_title">2020/10/31</span>
+                            </div>
+                        </div>
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section connection p-top_bottom">
+            <div class="container column-pd-rl d-flex j-content-center a-items-center">
+
+                <div class="form_box ">
+                    <h2 class="h2">聯絡我們</h2>
+                    <p class="font-size-2 font-w-bold ">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+                    <form class="d-flex f-wrap-w" action="index.html">
+                        <label class="font-w-bold" for="person">姓名：</label>
+                        <input class="input input_width_height background-other" id="person" type="text" placeholder="請輸入姓名"
+                            name="person">
+                        <label class="font-w-bold" for="phone">聯絡電話：</label>
+                        <input class="input input_width_height background-other" id="phone" type="number" placeholder="請輸入聯路電話"
+                            name="phone">
+                        <label class="font-w-bold" for="mail">電子郵件：</label>
+                        <input class="input input_width_height background-other" id="mail" type="text" placeholder="請輸入電子郵件"
+                            name="mail">
+                        <label class="font-w-bold" for="">意見反應 :</label>
+                        <textarea class="input textarea input_width_height background-other" name="content" id=""></textarea>
+                        <div class="checkbox d-flex ">
+                            <input class="input check background-other" id="mail" type="checkbox" value="" name="mail">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+                        </div>
+
+                        <input class="input_button background-primgary font-color-white m-top48" type="submit" value="確認送出">
+
+
+
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+        <%- include('./layout/footer'); %>
+
+    </div>
+    <script type="module" src="../main.js"></script>
 </body>
 
 </html>

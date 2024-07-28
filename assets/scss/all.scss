@@ -1,5 +1,36 @@
+@import './reset/reset.scss';
+@import './variable/variable.scss';
+@import'./utilities/utilities.scss';
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
-
 @import './pages/index.scss';
+
+
+
+
+
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto","Noto Sans TW","思源黑體 TW";
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+h1{
+	font-size: 64px;
+}
+.h2{
+	font-size:$font-size-6;
+	color:$third-color;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 48px;
+}
